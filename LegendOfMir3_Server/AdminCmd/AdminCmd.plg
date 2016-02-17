@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AdminCmd - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"../_Obj_Debug/AdminCmd/AdminCmd.res" /d "_DEBUG" "D:\LegendOfMir3_Server\AdminCmd\AdminCmd.rc"" 
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP2.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ADMINCMD_EXPORTS" /Fp"../_Obj_Debug/AdminCmd/AdminCmd.pch" /Yu"stdafx.h" /Fo"../_Obj_Debug/AdminCmd/" /Fd"../_Obj_Debug/AdminCmd/" /FD /GZ /c 
+"D:\LegendOfMir3_Server\AdminCmd\AdminCmd.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP2.tmp" 
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP3.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ADMINCMD_EXPORTS" /Fp"../_Obj_Debug/AdminCmd/AdminCmd.pch" /Yc"stdafx.h" /Fo"../_Obj_Debug/AdminCmd/" /Fd"../_Obj_Debug/AdminCmd/" /FD /GZ /c 
+"D:\LegendOfMir3_Server\AdminCmd\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP3.tmp" 
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"../_Bin/Debug/AdminCmd.pdb" /debug /machine:I386 /out:"../_Bin/Debug/AdminCmd.dll" /implib:"../_Bin/Debug/AdminCmd.lib" /pdbtype:sept 
+\LegendOfMir3_Server\_Obj_Debug\AdminCmd\AdminCmd.obj
+\LegendOfMir3_Server\_Obj_Debug\AdminCmd\StdAfx.obj
+\LegendOfMir3_Server\_Obj_Debug\AdminCmd\AdminCmd.res
+]
+Creating command line "link.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AdminCmd.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+AdminCmd.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SelGate - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPC5.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /Fp"../_Obj_Debug/SelGate/SelGate.pch" /Yu"stdafx.h" /Fo"../_Obj_Debug/SelGate/" /Fd"../_Obj_Debug/SelGate/" /FD /GZ /c 
+"D:\LegendOfMir3_Server\SelGate\ClientSockMsg.cpp"
+"D:\LegendOfMir3_Server\SelGate\ConfigDlgFunc.cpp"
+"D:\LegendOfMir3_Server\SelGate\MainWndProc.cpp"
+"D:\LegendOfMir3_Server\Def\Misc.cpp"
+"D:\LegendOfMir3_Server\Def\RegstryHandler.cpp"
+"D:\LegendOfMir3_Server\SelGate\SelGate.cpp"
+"D:\LegendOfMir3_Server\Def\ServerSockHandler.cpp"
+"D:\LegendOfMir3_Server\SelGate\ServerSockMsg.cpp"
+"D:\LegendOfMir3_Server\Def\_OrzEx\syncobj.cpp"
+"D:\LegendOfMir3_Server\SelGate\ThreadFuncForComm.cpp"
+"D:\LegendOfMir3_Server\SelGate\ThreadFuncForMsg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPC5.tmp" 
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPC6.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /Fp"../_Obj_Debug/SelGate/SelGate.pch" /Yc"stdafx.h" /Fo"../_Obj_Debug/SelGate/" /Fd"../_Obj_Debug/SelGate/" /FD /GZ /c 
+"D:\LegendOfMir3_Server\SelGate\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPC6.tmp" 
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPC7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"../_Bin/Debug/SelGate.pdb" /debug /machine:I386 /out:"../_Bin/Debug/SelGate.exe" /pdbtype:sept 
+\LegendOfMir3_Server\_Obj_Debug\SelGate\ClientSockMsg.obj
+\LegendOfMir3_Server\_Obj_Debug\SelGate\ConfigDlgFunc.obj
+\LegendOfMir3_Server\_Obj_Debug\SelGate\MainWndProc.obj
+\LegendOfMir3_Server\_Obj_Debug\SelGate\Misc.obj
+\LegendOfMir3_Server\_Obj_Debug\SelGate\RegstryHandler.obj
+\LegendOfMir3_Server\_Obj_Debug\SelGate\SelGate.obj
+\LegendOfMir3_Server\_Obj_Debug\SelGate\ServerSockHandler.obj
+\LegendOfMir3_Server\_Obj_Debug\SelGate\ServerSockMsg.obj
+\LegendOfMir3_Server\_Obj_Debug\SelGate\StdAfx.obj
+\LegendOfMir3_Server\_Obj_Debug\SelGate\syncobj.obj
+\LegendOfMir3_Server\_Obj_Debug\SelGate\ThreadFuncForComm.obj
+\LegendOfMir3_Server\_Obj_Debug\SelGate\ThreadFuncForMsg.obj
+\LegendOfMir3_Server\_Obj_Debug\SelGate\SelGate.res
+]
+Creating command line "link.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPC7.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ClientSockMsg.cpp
+ConfigDlgFunc.cpp
+Generating Code...
+Compiling...
+MainWndProc.cpp
+Misc.cpp
+Generating Code...
+Compiling...
+RegstryHandler.cpp
+SelGate.cpp
+Generating Code...
+Compiling...
+ServerSockHandler.cpp
+ServerSockMsg.cpp
+Generating Code...
+Compiling...
+syncobj.cpp
+ThreadFuncForComm.cpp
+Generating Code...
+Compiling...
+ThreadFuncForMsg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SelGate.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

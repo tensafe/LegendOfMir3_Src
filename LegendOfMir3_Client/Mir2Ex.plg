@@ -1,0 +1,347 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WindHorn - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP41E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR"Debug/" /Fp"Debug/WindHorn.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\LegendOfMir3_clint\WindHorn\RegHandler.cpp"
+"D:\LegendOfMir3_clint\WindHorn\WHDefProcess.cpp"
+"D:\LegendOfMir3_clint\WindHorn\WHDXGraphic.cpp"
+"D:\LegendOfMir3_clint\WindHorn\WHImage.cpp"
+"D:\LegendOfMir3_clint\WindHorn\WHSurface.cpp"
+"D:\LegendOfMir3_clint\WindHorn\WHWilImage.cpp"
+"D:\LegendOfMir3_clint\WindHorn\WHWilTexture.cpp"
+"D:\LegendOfMir3_clint\WindHorn\WHWindow.cpp"
+"D:\LegendOfMir3_clint\WindHorn\D3DCommon\d3dmath.cpp"
+"D:\LegendOfMir3_clint\WindHorn\D3DCommon\d3dtextr.cpp"
+"D:\LegendOfMir3_clint\WindHorn\D3DCommon\d3dutil.cpp"
+"D:\LegendOfMir3_clint\WindHorn\D3DCommon\ddutil.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP41E.tmp" 
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP41F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR"Debug/" /Fp"Debug/WindHorn.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\LegendOfMir3_clint\WindHorn\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP41F.tmp" 
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP420.tmp" with contents
+[
+/nologo /out:"Debug\WindHorn.lib" 
+.\Debug\RegHandler.obj
+.\Debug\StdAfx.obj
+.\Debug\WHDefProcess.obj
+.\Debug\WHDXGraphic.obj
+.\Debug\WHImage.obj
+.\Debug\WHSurface.obj
+.\Debug\WHWilImage.obj
+.\Debug\WHWilTexture.obj
+.\Debug\WHWindow.obj
+.\Debug\d3dmath.obj
+.\Debug\d3dtextr.obj
+.\Debug\d3dutil.obj
+.\Debug\ddutil.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP420.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+RegHandler.cpp
+WHDefProcess.cpp
+WHDXGraphic.cpp
+WHImage.cpp
+WHSurface.cpp
+WHWilImage.cpp
+WHWilTexture.cpp
+WHWindow.cpp
+d3dmath.cpp
+d3dtextr.cpp
+d3dutil.cpp
+ddutil.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: Mir2Ex - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP421.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Mir2Ex.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\LegendOfMir3_clint\GFun.cpp"
+"D:\LegendOfMir3_clint\Mir2Ex.cpp"
+"D:\LegendOfMir3_clint\LoginProcess\Common\BMWnd.cpp"
+"D:\LegendOfMir3_clint\LoginProcess\Login\Login.cpp"
+"D:\LegendOfMir3_clint\LoginProcess\Intro\LoginAvi.cpp"
+"D:\LegendOfMir3_clint\LoginProcess\LoginProcess.cpp"
+"D:\LegendOfMir3_clint\LoginProcess\New Account\NewAccount.cpp"
+"D:\LegendOfMir3_clint\LoginProcess\Patch.cpp"
+"D:\LegendOfMir3_clint\LoginProcess\Select Srv\SelectSrv.cpp"
+"D:\LegendOfMir3_clint\GameProcess\Actor.cpp"
+"D:\LegendOfMir3_clint\GameProcess\ChatPopWnd.cpp"
+"D:\LegendOfMir3_clint\GameProcess\ClientSysMsg.cpp"
+"D:\LegendOfMir3_clint\GameProcess\ExchangeWnd.cpp"
+"D:\LegendOfMir3_clint\GameProcess\GameBtn.cpp"
+"D:\LegendOfMir3_clint\GameProcess\GameProc.cpp"
+"D:\LegendOfMir3_clint\GameProcess\GameWnd.cpp"
+"D:\LegendOfMir3_clint\GameProcess\GroupPopWnd.cpp"
+"D:\LegendOfMir3_clint\GameProcess\GroupWnd.cpp"
+"D:\LegendOfMir3_clint\GameProcess\GuildMasterWnd.cpp"
+"D:\LegendOfMir3_clint\GameProcess\GuildWnd.cpp"
+"D:\LegendOfMir3_clint\GameProcess\HorseWnd.cpp"
+"D:\LegendOfMir3_clint\GameProcess\Interface.cpp"
+"D:\LegendOfMir3_clint\GameProcess\InventoryWnd.cpp"
+"D:\LegendOfMir3_clint\GameProcess\Item.cpp"
+"D:\LegendOfMir3_clint\GameProcess\LightFog.cpp"
+"D:\LegendOfMir3_clint\GameProcess\Magic.cpp"
+"D:\LegendOfMir3_clint\GameProcess\MapHandler.cpp"
+"D:\LegendOfMir3_clint\GameProcess\NPCWnd.cpp"
+"D:\LegendOfMir3_clint\GameProcess\OptionWnd.cpp"
+"D:\LegendOfMir3_clint\GameProcess\Particle.cpp"
+"D:\LegendOfMir3_clint\GameProcess\QuestWnd.cpp"
+"D:\LegendOfMir3_clint\GameProcess\SprDfn.cpp"
+"D:\LegendOfMir3_clint\GameProcess\StatusWnd.cpp"
+"D:\LegendOfMir3_clint\GameProcess\StoreWnd.cpp"
+"D:\LegendOfMir3_clint\GameProcess\WeatherEffect.cpp"
+"D:\LegendOfMir3_clint\Common\Button.cpp"
+"D:\LegendOfMir3_clint\Common\ChatEditBox.cpp"
+"D:\LegendOfMir3_clint\Common\ClientSocket.cpp"
+"D:\LegendOfMir3_clint\Common\DblList.cpp"
+"D:\LegendOfMir3_clint\Common\DLinkedList.cpp"
+"D:\LegendOfMir3_clint\Common\EnDecode.cpp"
+"D:\LegendOfMir3_clint\Common\ImageHandler.cpp"
+"D:\LegendOfMir3_clint\Common\MirButton.cpp"
+"D:\LegendOfMir3_clint\Common\MirMsgBox.cpp"
+"D:\LegendOfMir3_clint\Common\MirMsgBox3D.cpp"
+"D:\LegendOfMir3_clint\Common\MsgBox.cpp"
+"D:\LegendOfMir3_clint\Common\NoticeBox.cpp"
+"D:\LegendOfMir3_clint\Common\NPCTxtAnalysis.cpp"
+"D:\LegendOfMir3_clint\Common\Queue.cpp"
+"D:\LegendOfMir3_clint\CharSelectProcess\BackGround\BackGround.cpp"
+"D:\LegendOfMir3_clint\CharSelectProcess\CharacterProcess.cpp"
+"D:\LegendOfMir3_clint\CharSelectProcess\CreateChr\CreateChr.cpp"
+"D:\LegendOfMir3_clint\CharSelectProcess\SelectChr\SelectChr.cpp"
+"D:\LegendOfMir3_clint\Sound\BMMP3.cpp"
+"D:\LegendOfMir3_clint\Sound\MirSound.cpp"
+"D:\LegendOfMir3_clint\Sound\SBuffer.cpp"
+"D:\LegendOfMir3_clint\Sound\Sound.cpp"
+"D:\LegendOfMir3_clint\AVI\Avi.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP421.tmp" 
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP422.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Mir2Ex.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\LegendOfMir3_clint\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP422.tmp" 
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP423.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Mir2EI.pdb" /debug /machine:I386 /out:"C:\Mir2EI\Mir2EI.exe" /pdbtype:sept 
+.\Debug\GFun.obj
+.\Debug\Mir2Ex.obj
+.\Debug\StdAfx.obj
+.\Debug\BMWnd.obj
+.\Debug\Login.obj
+.\Debug\LoginAvi.obj
+.\Debug\LoginProcess.obj
+.\Debug\NewAccount.obj
+.\Debug\Patch.obj
+.\Debug\SelectSrv.obj
+.\Debug\Actor.obj
+.\Debug\ChatPopWnd.obj
+.\Debug\ClientSysMsg.obj
+.\Debug\ExchangeWnd.obj
+.\Debug\GameBtn.obj
+.\Debug\GameProc.obj
+.\Debug\GameWnd.obj
+.\Debug\GroupPopWnd.obj
+.\Debug\GroupWnd.obj
+.\Debug\GuildMasterWnd.obj
+.\Debug\GuildWnd.obj
+.\Debug\HorseWnd.obj
+.\Debug\Interface.obj
+.\Debug\InventoryWnd.obj
+.\Debug\Item.obj
+.\Debug\LightFog.obj
+.\Debug\Magic.obj
+.\Debug\MapHandler.obj
+.\Debug\NPCWnd.obj
+.\Debug\OptionWnd.obj
+.\Debug\Particle.obj
+.\Debug\QuestWnd.obj
+.\Debug\SprDfn.obj
+.\Debug\StatusWnd.obj
+.\Debug\StoreWnd.obj
+.\Debug\WeatherEffect.obj
+.\Debug\Button.obj
+.\Debug\ChatEditBox.obj
+.\Debug\ClientSocket.obj
+.\Debug\DblList.obj
+.\Debug\DLinkedList.obj
+.\Debug\EnDecode.obj
+.\Debug\ImageHandler.obj
+.\Debug\MirButton.obj
+.\Debug\MirMsgBox.obj
+.\Debug\MirMsgBox3D.obj
+.\Debug\MsgBox.obj
+.\Debug\NoticeBox.obj
+.\Debug\NPCTxtAnalysis.obj
+.\Debug\Queue.obj
+.\Debug\BackGround.obj
+.\Debug\CharacterProcess.obj
+.\Debug\CreateChr.obj
+.\Debug\SelectChr.obj
+.\Debug\BMMP3.obj
+.\Debug\MirSound.obj
+.\Debug\SBuffer.obj
+.\Debug\Sound.obj
+.\Debug\Avi.obj
+.\Debug\Resource.res
+.\WindHorn\Debug\WindHorn.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP423.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+GFun.cpp
+Mir2Ex.cpp
+BMWnd.cpp
+Login.cpp
+LoginAvi.cpp
+LoginProcess.cpp
+NewAccount.cpp
+Patch.cpp
+SelectSrv.cpp
+Actor.cpp
+ChatPopWnd.cpp
+ClientSysMsg.cpp
+ExchangeWnd.cpp
+GameBtn.cpp
+GameProc.cpp
+GameWnd.cpp
+GroupPopWnd.cpp
+GroupWnd.cpp
+GuildMasterWnd.cpp
+GuildWnd.cpp
+Generating Code...
+Compiling...
+HorseWnd.cpp
+Interface.cpp
+InventoryWnd.cpp
+Item.cpp
+LightFog.cpp
+Magic.cpp
+MapHandler.cpp
+NPCWnd.cpp
+OptionWnd.cpp
+Particle.cpp
+QuestWnd.cpp
+SprDfn.cpp
+StatusWnd.cpp
+StoreWnd.cpp
+WeatherEffect.cpp
+Button.cpp
+ChatEditBox.cpp
+ClientSocket.cpp
+DblList.cpp
+DLinkedList.cpp
+Generating Code...
+Compiling...
+EnDecode.cpp
+ImageHandler.cpp
+MirButton.cpp
+MirMsgBox.cpp
+MirMsgBox3D.cpp
+MsgBox.cpp
+NoticeBox.cpp
+NPCTxtAnalysis.cpp
+Queue.cpp
+BackGround.cpp
+CharacterProcess.cpp
+CreateChr.cpp
+SelectChr.cpp
+BMMP3.cpp
+MirSound.cpp
+SBuffer.cpp
+Sound.cpp
+Avi.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP425.tmp" with contents
+[
+/nologo /o"Debug/Mir2Ex.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\GFun.sbr
+.\Debug\Mir2Ex.sbr
+.\Debug\BMWnd.sbr
+.\Debug\Login.sbr
+.\Debug\LoginAvi.sbr
+.\Debug\LoginProcess.sbr
+.\Debug\NewAccount.sbr
+.\Debug\Patch.sbr
+.\Debug\SelectSrv.sbr
+.\Debug\Actor.sbr
+.\Debug\ChatPopWnd.sbr
+.\Debug\ClientSysMsg.sbr
+.\Debug\ExchangeWnd.sbr
+.\Debug\GameBtn.sbr
+.\Debug\GameProc.sbr
+.\Debug\GameWnd.sbr
+.\Debug\GroupPopWnd.sbr
+.\Debug\GroupWnd.sbr
+.\Debug\GuildMasterWnd.sbr
+.\Debug\GuildWnd.sbr
+.\Debug\HorseWnd.sbr
+.\Debug\Interface.sbr
+.\Debug\InventoryWnd.sbr
+.\Debug\Item.sbr
+.\Debug\LightFog.sbr
+.\Debug\Magic.sbr
+.\Debug\MapHandler.sbr
+.\Debug\NPCWnd.sbr
+.\Debug\OptionWnd.sbr
+.\Debug\Particle.sbr
+.\Debug\QuestWnd.sbr
+.\Debug\SprDfn.sbr
+.\Debug\StatusWnd.sbr
+.\Debug\StoreWnd.sbr
+.\Debug\WeatherEffect.sbr
+.\Debug\Button.sbr
+.\Debug\ChatEditBox.sbr
+.\Debug\ClientSocket.sbr
+.\Debug\DblList.sbr
+.\Debug\DLinkedList.sbr
+.\Debug\EnDecode.sbr
+.\Debug\ImageHandler.sbr
+.\Debug\MirButton.sbr
+.\Debug\MirMsgBox.sbr
+.\Debug\MirMsgBox3D.sbr
+.\Debug\MsgBox.sbr
+.\Debug\NoticeBox.sbr
+.\Debug\NPCTxtAnalysis.sbr
+.\Debug\Queue.sbr
+.\Debug\BackGround.sbr
+.\Debug\CharacterProcess.sbr
+.\Debug\CreateChr.sbr
+.\Debug\SelectChr.sbr
+.\Debug\BMMP3.sbr
+.\Debug\MirSound.sbr
+.\Debug\SBuffer.sbr
+.\Debug\Sound.sbr
+.\Debug\Avi.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSP425.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Mir2EI.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,295 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TOOLBAR             BITMAP  DISCARDABLE     ".\\Res\\toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MIR2                ICON    DISCARDABLE     ".\\Res\\MIR2.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&Service"
+    BEGIN
+        MENUITEM "&Start Service",              IDM_STARTSERVICE
+        MENUITEM "S&top Service",               IDM_STOPSERVICE, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Configuration",              IDM_CONFIG
+        MENUITEM "&Font Color",                 IDM_SETFONTCOLOR
+        MENUITEM "&Background Color",           IDM_SETBKGCOLOR
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONFIGDLG DIALOG DISCARDABLE  0, 0, 343, 285
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Game Server Configuration"
+FONT 9, "굴림"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,228,264,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,286,264,50,14
+    LTEXT           "Game Server Index : ",IDC_STATIC,23,24,70,8
+    CONTROL         "IPAddress1",IDC_DBSVR_IP,"SysIPAddress32",WS_TABSTOP,65,
+                    130,90,11
+    EDITTEXT        IDC_DBSRV_PORT,65,144,28,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Address :",IDC_STATIC,29,132,35,8
+    GROUPBOX        "Database Server Information",IDC_STATIC,15,116,158,48
+    LTEXT           "Port :",IDC_STATIC,43,145,21,9
+    GROUPBOX        "Server Information",IDC_STATIC,15,58,158,54
+    EDITTEXT        IDC_SRVINDEX,94,21,17,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Start Level :",IDC_STATIC,27,76,39,8
+    LTEXT           "Start Gold :",IDC_STATIC,99,76,37,8
+    EDITTEXT        IDC_STARTLEVEL,69,73,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_STARTGOLD,142,74,19,14,ES_AUTOHSCROLL
+    CONTROL         "Test Server",IDC_CHECK_TESTSRV,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,26,93,53,10
+    LTEXT           "Game Server Name :",IDC_STATIC,120,24,70,8
+    LTEXT           "Game Server Number :",IDC_STATIC,15,41,76,8
+    EDITTEXT        IDC_SRVNUMBER,94,38,17,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_SRVNAME,193,21,40,14,ES_CENTER | ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    GROUPBOX        "File Location Information",IDC_STATIC,178,58,149,40
+    LTEXT           "Map :",IDC_STATIC,186,74,20,8
+    EDITTEXT        IDC_MAPFILE_LOC,209,72,108,14,ES_AUTOHSCROLL
+    CONTROL         "IPAddress1",IDC_DBMS_IP,"SysIPAddress32",WS_TABSTOP,65,
+                    185,90,11
+    EDITTEXT        IDC_DBMS_PORT,65,199,28,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Address :",IDC_STATIC,29,187,35,8
+    GROUPBOX        "DBMS Information",IDC_STATIC,15,171,158,83
+    LTEXT           "Instance :",IDC_STATIC,28,201,34,9
+    LTEXT           "ID : ",IDC_STATIC,30,237,14,8
+    EDITTEXT        IDC_DBMS_ID,46,234,28,14,ES_AUTOHSCROLL
+    LTEXT           "Password :",IDC_STATIC,82,237,38,8
+    EDITTEXT        IDC_DBMS_PASSWORD,123,234,40,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "Database :",IDC_STATIC,25,216,36,8
+    EDITTEXT        IDC_DBMS_DEVICE,65,214,82,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CONFIGDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 336
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 278
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NOTWINNT            "이 프로그램은 Microsoft Windows 2000 이상의 버젼에서 만 실행 할 수 있습니다."
+    IDS_LVS_LABEL1          "날짜"
+    IDS_LVS_LABEL2          "시간"
+    IDS_LVS_LABEL3          "메세지"
+    IDS_STARTSERVICE        "미르의 전설 2 게임 서버 서비스를 시작 했습니다."
+    IDS_STOPSERVICE         "미르의 전설 2 게임 서버 서비스를 중지 했습니다."
+    IDS_FETCH_MAGICDATA     "기본 마법 정보 ( %d 개 ) 를 읽었습니다."
+    IDS_DISCONNECT_LOGINSERVER "로그인 서버와 접속이 끊겼습니다."
+    IDS_PROGRAM_QUIT        "미르의 전설 2 게임 서버를 종료 하시겠습니까 ?"
+    IDS_PROGRAM_TITLE       "미르의 전설2 - 게임 서버"
+    IDS_LOAD_ADMINCOMMAND   "INFO : 운영자 명령어 (%d 개) 를 읽었습니다."
+    IDS_CONFLVS_LABEL1      "서버명"
+    IDS_CONFLVS_LABEL2      "타이틀"
+    IDS_CONFLVS_LABEL3      "로그인 게이트 내부 IP 주소"
+    IDS_CONFLVS_LABEL4      "로그인 게이트 외부 IP 주소"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CONFLVS_LABEL5      "게임 게이트 외부 IP 주소"
+    IDS_TAB_LABEL1          "서버 설정"
+    IDS_ACCEPT_GATESERVER   "INFO : 게임 게이트 서버 (%s) 가 접속 되었습니다."
+    IDS_OPEN_USER           "클라이언트 (%s) 가 접속을 시도 했습니다. "
+    IDS_CLOSE_USER          "클라이언트 (%s) 가 접속을 종료 했습니다."
+    IDS_OPEN_GATE           "%d 번 게이트가 접속 되었습니다."
+    IDS_CLOSE_GATE          "%d 번 게이트의 접속이 종료 되었습니다."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CONNECT_DBSERVER    "INFO : 데이터베이스 서버에 접속 되었습니다."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_LOADMAPFILE_GOOD    "맵 파일 (%s) 정보를 읽었습니다."
+    IDS_LOADMAPFILE_FAIL    "ERROR : 맵 파일 (%s) 정보를 읽을 수 없습니다."
+    IDS_DISCONNECT_DBSERVER "ERROR : 데이터베이스 서버와 접속이 끊어 졌습니다."
+    IDS_APPLY_RECONNECT     "INFO : 데이터베이스 서버에 접속을 시도합니다."
+    IDS_CANT_CONNECT        "ERROR : 데이터베이스 서버에 접속 할 수 없습니다."
+    IDS_FETCH_MONSTER       "몬스터 정보 (%d 개)를 읽었습니다."
+    IDS_FETCH_MONGEN        "몬스터 생성 정보 (%d 개)를 읽었습니다."
+    IDS_FETCH_STDITEMWEAPON "무기 아이템 정보 (%d 개)를 읽었습니다."
+    IDS_FETCH_STDITEMARMOR  "방어구 아이템 정보 (%d 개)를 읽었습니다."
+    IDS_FETCH_MERCHANT      "상인 정보 (%d 개)를 읽었습니다."
+    IDS_FETCH_MOVEMAPEVENT  "맵 이동 정보 (%d 개)를 읽었습니다."
+    IDS_ALLOW_LONGHIT       "어검술을 사용합니다."
+    IDS_NOTALLOW_LONGHIT    "어검술을 사용하지 않습니다."
+    IDS_ALLOW_WIDEHIT       "반월검법을 사용합니다."
+    IDS_NOTALLOW_WIDEHIT    "반월검법을 사용하지 않습니다."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ALLOW_FIREHIT       "당신의 무기가 불의 기운으로 달아올랐습니다."
+    IDS_NOTALLOW_FIREHIT    "기를 모으는데 실패하였습니다."
+    IDS_TIMEOUT_FIREHIT     "불의 기운이 사라졌습니다."
+    IDS_ATTACKMODE_ALL      "[대인 공격 방식 : 모두 공격 가능]"
+    IDS_ATTACKMODE_PEACE    "[대인 공격 방식 : 평화 공격]"
+    IDS_ATTACKMODE_GROUP    "[대인 공격 방식 : 그룹 단위 공격]"
+    IDS_ATTACKMODE_GUILD    "[대인 공격 방식 : 문파 단위 공격]"
+    IDS_ATTACKMODE_PKATTACK "[대인 공격 방식 : 선악 대결 공격]"
+    IDS_ATTACKMODE_CHGMODE  "대인 공격 방식 변경 : CTRL-H"
+    IDS_FETCH_STDITEMETC    "INFO : 기본 아이템 정보 (%d 개)를 읽었습니다."
+    IDS_FETCH_STDITEMACCESSORY "INFO : 특수 아이템 정보 (%d 개)를 읽었습니다."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_JOBNAME_W           "전사"
+    IDS_JOBNAME_S           "술사"
+    IDS_JOBNAME_T           "도사"
+    IDS_INSPECTOR_ON        "감시자 모드"
+    IDS_INSPECTOR_OFF       "감시자 모드 해제"
+    IDS_NOTENOUGHLEVEL_CRY  "외치기는 레벨 8 이상에서 사용할 수 있습니다."
+    IDS_CANTFIND_HUMAN      "님을 찾을 수 없습니다."
+    IDS_SKIL_LEVELUP        "%s 수련 레벨 %d 으로 변경"
+    IDS_USERCMD_NOWHISPER1  "귀엣말거부"
+    IDS_USERCMD_NOWHISPER2  "귓속말거부"
+    IDS_USERCMD_YESWHISPER1 "귓속말허용"
+    IDS_USERCMD_YESWHISPER2 "귀엣말허용"
+    IDS_USERCMD_NOWHISPER_SOMEBODY "차단"
+    IDS_USERCMD_DONTCRY1    "외치기거부"
+    IDS_USERCMD_DONTCRY2    "외치기차단"
+    IDS_USERCMD_DONTEXNG    "교환거부"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_USERCMD_ACPTGUILD   "문파가입"
+    IDS_USERCMD_ALOWPARTY   "동맹허용"
+    IDS_USERCMD_DOPARTY     "동맹"
+    IDS_USERCMD_BROKEPARTY  "동맹파기"
+    IDS_USERCMD_OUTGUILD    "문파탈퇴"
+    IDS_USERCMD_NOGUILDCRY1 "문파전음차단"
+    IDS_USERCMD_NOGUILDCRY2 "문파전음거부"
+    IDS_USERCMD_ATTACKMODE  "공격모드"
+    IDS_USERCMD_REST        "휴식"
+    IDS_USERCMD_SABUKDOOR   "사북성문"
+    IDS_LOAD_USERCOMMAND    "사용자 명령어 (%d 개)를 읽었습니다."
+    IDS_DEFENCEUP           "방어력 상승 %d 초"
+    IDS_MAGDEFENCEUP        "마항력 상승 %d 초"
+    IDS_MALE_WEAR           "남자 옷입니다."
+    IDS_FEMALE_WEAR         "여자 옷입니다."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NOTENOUGH_VALUE     "착용할 수 없습니다."
+    IDS_NOTENOUGH_WEIGHT    "너무 무겁습니다. "
+    IDS_GOLD                "금전"
+    IDS_NEVERDIE_ON         "무적모드"
+    IDS_NEVERDIE_OFF        "평범모드"
+    IDS_CAPTURE_ON          "갈무리 시작"
+    IDS_CAPTURE_OFF         "갈무리 끝"
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

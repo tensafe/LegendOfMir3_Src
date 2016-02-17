@@ -1,0 +1,163 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DBSvr - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"../_Obj_Debug/DBSvr/DBSvr.res" /d "_DEBUG" "D:\LegendOfMir3_Server\DBSvr\DBSvr.rc"" 
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPAD.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"../_Obj_Debug/DBSvr/" /Fp"../_Obj_Debug/DBSvr/DBSvr.pch" /Yu"stdafx.h" /Fo"../_Obj_Debug/DBSvr/" /Fd"../_Obj_Debug/DBSvr/" /FD /GZ /c 
+"D:\LegendOfMir3_Server\DBSvr\ConfigDlgFunc.cpp"
+"D:\LegendOfMir3_Server\Def\dbmgr.cpp"
+"D:\LegendOfMir3_Server\DBSvr\DBSvr.cpp"
+"D:\LegendOfMir3_Server\DBSvr\GameGateSockMsg.cpp"
+"D:\LegendOfMir3_Server\DBSvr\GateCommSockMsg.cpp"
+"D:\LegendOfMir3_Server\DBSvr\GateInfo.cpp"
+"D:\LegendOfMir3_Server\DBSvr\GlobalUserList.cpp"
+"D:\LegendOfMir3_Server\DBSvr\MainWndProc.cpp"
+"D:\LegendOfMir3_Server\Def\Misc.cpp"
+"D:\LegendOfMir3_Server\DBSvr\ProcessDBMsg.cpp"
+"D:\LegendOfMir3_Server\DBSvr\ProcessGateMsg.cpp"
+"D:\LegendOfMir3_Server\DBSvr\ProcessServerMsg.cpp"
+"D:\LegendOfMir3_Server\DBSvr\ServerCommSockMsg.cpp"
+"D:\LegendOfMir3_Server\DBSvr\TableList.cpp"
+"D:\LegendOfMir3_Server\Def\_OrzEx\util.cpp"
+"D:\LegendOfMir3_Server\Def\_OrzEx\database.cpp"
+"D:\LegendOfMir3_Server\Def\_OrzEx\error.cpp"
+"D:\LegendOfMir3_Server\Def\_OrzEx\prime.cpp"
+"D:\LegendOfMir3_Server\Def\_OrzEx\syncobj.cpp"
+"D:\LegendOfMir3_Server\Def\EnDecode.cpp"
+"D:\LegendOfMir3_Server\Def\RegstryHandler.cpp"
+"D:\LegendOfMir3_Server\Def\ServerSockHandler.cpp"
+"D:\LegendOfMir3_Server\Def\_OrzEx\stringex.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPAD.tmp" 
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPAE.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"../_Obj_Debug/DBSvr/" /Fp"../_Obj_Debug/DBSvr/DBSvr.pch" /Yc"stdafx.h" /Fo"../_Obj_Debug/DBSvr/" /Fd"../_Obj_Debug/DBSvr/" /FD /GZ /c 
+"D:\LegendOfMir3_Server\DBSvr\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPAE.tmp" 
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPAF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"../_Bin/Debug/DBSvr.pdb" /debug /machine:I386 /out:"../_Bin/Debug/DBSvr.exe" /pdbtype:sept 
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\ConfigDlgFunc.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\dbmgr.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\DBSvr.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\GameGateSockMsg.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\GateCommSockMsg.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\GateInfo.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\GlobalUserList.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\MainWndProc.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\Misc.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\ProcessDBMsg.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\ProcessGateMsg.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\ProcessServerMsg.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\ServerCommSockMsg.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\StdAfx.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\TableList.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\util.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\database.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\error.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\prime.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\syncobj.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\EnDecode.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\RegstryHandler.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\ServerSockHandler.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\stringex.obj
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\DBSvr.res
+]
+Creating command line "link.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPAF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ConfigDlgFunc.cpp
+dbmgr.cpp
+Generating Code...
+Compiling...
+DBSvr.cpp
+GameGateSockMsg.cpp
+Generating Code...
+Compiling...
+GateCommSockMsg.cpp
+GateInfo.cpp
+Generating Code...
+Compiling...
+GlobalUserList.cpp
+MainWndProc.cpp
+Generating Code...
+Compiling...
+Misc.cpp
+ProcessDBMsg.cpp
+Generating Code...
+Compiling...
+ProcessGateMsg.cpp
+ProcessServerMsg.cpp
+Generating Code...
+Compiling...
+ServerCommSockMsg.cpp
+TableList.cpp
+Generating Code...
+Compiling...
+util.cpp
+database.cpp
+Generating Code...
+Compiling...
+error.cpp
+prime.cpp
+Generating Code...
+Compiling...
+syncobj.cpp
+EnDecode.cpp
+Generating Code...
+Compiling...
+RegstryHandler.cpp
+ServerSockHandler.cpp
+Generating Code...
+Compiling...
+stringex.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPB1.tmp" with contents
+[
+/nologo /o"../_Bin/Debug/DBSvr.bsc" 
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\StdAfx.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\ConfigDlgFunc.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\dbmgr.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\DBSvr.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\GameGateSockMsg.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\GateCommSockMsg.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\GateInfo.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\GlobalUserList.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\MainWndProc.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\Misc.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\ProcessDBMsg.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\ProcessGateMsg.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\ProcessServerMsg.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\ServerCommSockMsg.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\TableList.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\util.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\database.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\error.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\prime.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\syncobj.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\EnDecode.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\RegstryHandler.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\ServerSockHandler.sbr
+\LegendOfMir3_Server\_Obj_Debug\DBSvr\stringex.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPB1.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+DBSvr.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

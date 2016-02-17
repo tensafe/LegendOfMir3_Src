@@ -1,0 +1,161 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "명령어"
+    BEGIN
+        MENUITEM "CM_&IDPASSWORD",              IDM_CM_IDPASSWORD
+        MENUITEM "CM_&ADDUSER",                 IDM_CM_ADDUSER
+    END
+    POPUP "가혹테스트"
+    BEGIN
+        MENUITEM "가혹테스트 시작(&S)",         IDM_TEST
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LOGIN DIALOG DISCARDABLE  0, 0, 121, 101
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Login"
+FONT 9, "굴림"
+BEGIN
+    EDITTEXT        IDC_USERID,64,23,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,64,44,40,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,7,80,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,64,80,50,14
+    LTEXT           "ID :",IDC_STATIC,46,26,12,8
+    LTEXT           "Password :",IDC_STATIC,20,46,38,8
+END
+
+IDD_NEWUSER DIALOG DISCARDABLE  0, 0, 167, 261
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add New User"
+FONT 9, "굴림"
+BEGIN
+    EDITTEXT        IDC_USERID,73,19,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,73,37,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_USERNAME,73,53,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SSNO,73,70,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BIRTHDAY,73,87,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_QUIZ1,73,105,74,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ANSWER1,73,121,74,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_QUIZ2,73,137,74,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ANSWER2,73,153,74,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PHONE,73,171,58,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MOBILEPHONE,73,189,58,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EMAIL,73,206,74,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,7,240,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,110,240,50,14
+    LTEXT           "ID :",IDC_STATIC,56,22,12,8
+    LTEXT           "암호 :",IDC_STATIC,49,39,19,8
+    LTEXT           "사용자 명 :",IDC_STATIC,33,56,35,8
+    LTEXT           "주민등록번호 :",IDC_STATIC,21,73,47,8
+    LTEXT           "질문 1 :",IDC_STATIC,43,108,25,8
+    LTEXT           "질문 2 :",IDC_STATIC,43,140,25,8
+    LTEXT           "답 1 :",IDC_STATIC,50,124,18,8
+    LTEXT           "답 2 :",IDC_STATIC,50,157,18,8
+    LTEXT           "전화 번호 :",IDC_STATIC,33,174,35,8
+    LTEXT           "이동전화 번호 :",IDC_STATIC,19,191,49,8
+    LTEXT           "이메일 주소 :",IDC_STATIC,26,208,42,8
+    LTEXT           "생일 :",IDC_STATIC,49,89,19,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 114
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 94
+    END
+
+    IDD_NEWUSER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 254
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

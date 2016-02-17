@@ -1,0 +1,160 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_COMMAND_MONGEN      "몹젠"
+    IDS_COMMAND_INSPECTOR   "감시자"
+    IDS_COMMAND_ADMIN       "운영자"
+    IDS_COMMAND_INVINCIBILITY "무적"
+    IDS_COMMAND_ATTACK      "공격"
+    IDS_COMMAND_MOVE        "이동"
+    IDS_COMMAND_CHANGELEVEL "레벨조정"
+    IDS_COMMAND_MOVEFREESTYLE "자유이동"
+    IDS_COMMAND_MAP         "맵"
+    IDS_COMMAND_LEVEL       "렙"
+    IDS_COMMAND_MONLEVEL    "몹렙"
+    IDS_COMMAND_RECALL      "소환"
+    IDS_COMMAND_NUMOFMON    "몹수"
+    IDS_COMMAND_NUMOFHUMAN  "사람수"
+    IDS_COMMAND_SABUKMONEY  "사북성돈"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_COMMAND_KICK        "Kick"
+    IDS_COMMAND_KICK2       "킥"
+    IDS_COMMAND_TING        "팅"
+    IDS_COMMAND_KINGTING    "왕팅"
+    IDS_COMMAND_LUCKYVALUE  "행운값"
+    IDS_COMMANT_SHUTUP      "채금"
+    IDS_COMMAND_TALK        "채금해제"
+    IDS_COMMAND_SHUTUPMAN   "채금자"
+    IDS_COMMAND_RELOADADMIN "reloadadmin"
+    IDS_COMMAND_RELOADABUSIVE "욕설정보읽기"
+    IDS_COMMAND_MOOTAEBO    "무태보"
+    IDS_COMMAND_BACKWALK    "뒷걸음"
+    IDS_COMMAND_GAIN        "생산"
+    IDS_COMMAND_DELGOLD     "돈삭제"
+    IDS_COMMAND_ADDGOLD     "돈추가"
+    IDS_COMMAND_GOOD        "물건"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_COMMAND_OTHERDELGOLD "타인돈삭제"
+    IDS_COMMAND_OTHERADDGOLD "타인돈추가"
+    IDS_COMMAND_OTHERLEVELUP "타인레벨조정"
+    IDS_COMMAND_OTHEREXPUP  "타인경험치조정"
+    IDS_COMMAND_WEAPONDUR   "무기내구조정"
+    IDS_COMMAND_PARDON      "면죄"
+    IDS_COMMAND_PKPOINT     "피케이점수"
+    IDS_COMMAND_PKPOINTUP   "피케이점수증가"
+    IDS_COMMAND_CHANGELUCKY "행운변경"
+    IDS_COMMAND_SKILLUP     "무공수련"
+    IDS_COMMAND_OTHERSKILLUP "타인무공수련"
+    IDS_COMMAND_DELSKILL    "무공삭제하기"
+    IDS_COMMAND_OTHERDELSKILL "타인무공삭제하기"
+    IDS_COMMAND_CHGJOB      "전업"
+    IDS_COMMAND_CHGGENDER   "트랜스젠더"
+    IDS_COMMAND_COLOR       "색"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_COMMAND_MONRECALL   "몹소환"
+    IDS_COMMAND_MISSION     "미션"
+    IDS_COMMAND_GENPOS      "젠곳"
+    IDS_COMMAND_TRANSPARENCY "투명"
+    IDS_COMMAND_CIVILWAR    "강제공성전"
+    IDS_COMMAND_DYEINGHAIR  "머리염색"
+    IDS_COMMAND_DYEINGWEAR  "옷염색"
+    IDS_COMMAND_SUSINOTICE  "수시공지"
+    IDS_COMMAND_GAMCHUNG    "감청"
+    IDS_COMMAND_CHOOLDOO    "출두"
+    IDS_COMMAND_RESERVED1   "reloadmonster"
+    IDS_COMMAND_RESERVED2   "reloaditem"
+    IDS_COMMAND_RESERVED3   "아이템이름"
+    IDS_COMMAND_RESERVED4   "갈무리"
+    IDS_COMMAND_RESERVED5   "스크립터"
+    IDS_COMMAND_RESERVED6   "미지정6"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_COMMAND_RESERVED7   "미지정7"
+    IDS_COMMAND_RESERVED8   "미지정8"
+    IDS_COMMANT_RESERVED9   "미지정9"
+    IDS_COMMAND_RESERVED10  "미지정10"
+    IDS_COMMAND_RESERVED11  "미지정11"
+    IDS_COMMAND_RESERVED12  "미지정12"
+    IDS_COMMAND_RESERVED13  "미지정13"
+    IDS_COMMAND_HAIRSTYLE   "머리모양"
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

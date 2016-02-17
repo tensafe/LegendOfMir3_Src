@@ -1,0 +1,121 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LoginSvr - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPC0.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /FR"../_Obj_Debug/LoginSvr/" /Fp"../_Obj_Debug/LoginSvr/LoginSvr.pch" /Yu"stdafx.h" /Fo"../_Obj_Debug/LoginSvr/" /Fd"../_Obj_Debug/LoginSvr/" /FD /GZ /c 
+"D:\LegendOfMir3_Server\LoginSvr\AddSvrListFunc.cpp"
+"D:\LegendOfMir3_Server\LoginSvr\ConfigDlgFunc.cpp"
+"D:\LegendOfMir3_Server\Def\dbmgr.cpp"
+"D:\LegendOfMir3_Server\LoginSvr\GateCommSockMsg.cpp"
+"D:\LegendOfMir3_Server\LoginSvr\GateInfo.cpp"
+"D:\LegendOfMir3_Server\LoginSvr\LoginSvr.cpp"
+"D:\LegendOfMir3_Server\LoginSvr\MainWndProc.cpp"
+"D:\LegendOfMir3_Server\Def\Misc.cpp"
+"D:\LegendOfMir3_Server\LoginSvr\ServerListProc.cpp"
+"D:\LegendOfMir3_Server\LoginSvr\ThreadFuncForMsg.cpp"
+"D:\LegendOfMir3_Server\Def\_OrzEx\database.cpp"
+"D:\LegendOfMir3_Server\Def\_OrzEx\syncobj.cpp"
+"D:\LegendOfMir3_Server\Def\EnDecode.cpp"
+"D:\LegendOfMir3_Server\Def\RegstryHandler.cpp"
+"D:\LegendOfMir3_Server\Def\ServerSockHandler.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPC0.tmp" 
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPC1.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /FR"../_Obj_Debug/LoginSvr/" /Fp"../_Obj_Debug/LoginSvr/LoginSvr.pch" /Yc"stdafx.h" /Fo"../_Obj_Debug/LoginSvr/" /Fd"../_Obj_Debug/LoginSvr/" /FD /GZ /c 
+"D:\LegendOfMir3_Server\LoginSvr\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPC1.tmp" 
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPC2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"../_Bin/Debug/LoginSvr.pdb" /debug /machine:I386 /out:"../_Bin/Debug/LoginSvr.exe" /pdbtype:sept 
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\AddSvrListFunc.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\ConfigDlgFunc.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\dbmgr.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\GateCommSockMsg.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\GateInfo.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\LoginSvr.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\MainWndProc.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\Misc.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\ServerListProc.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\StdAfx.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\ThreadFuncForMsg.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\database.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\syncobj.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\EnDecode.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\RegstryHandler.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\ServerSockHandler.obj
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\LoginSvr.res
+]
+Creating command line "link.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPC2.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+AddSvrListFunc.cpp
+ConfigDlgFunc.cpp
+Generating Code...
+Compiling...
+dbmgr.cpp
+GateCommSockMsg.cpp
+Generating Code...
+Compiling...
+GateInfo.cpp
+LoginSvr.cpp
+Generating Code...
+Compiling...
+MainWndProc.cpp
+Misc.cpp
+Generating Code...
+Compiling...
+ServerListProc.cpp
+ThreadFuncForMsg.cpp
+Generating Code...
+Compiling...
+database.cpp
+syncobj.cpp
+Generating Code...
+Compiling...
+EnDecode.cpp
+RegstryHandler.cpp
+Generating Code...
+Compiling...
+ServerSockHandler.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPC4.tmp" with contents
+[
+/nologo /o"../_Bin/Debug/LoginSvr.bsc" 
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\StdAfx.sbr
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\AddSvrListFunc.sbr
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\ConfigDlgFunc.sbr
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\dbmgr.sbr
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\GateCommSockMsg.sbr
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\GateInfo.sbr
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\LoginSvr.sbr
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\MainWndProc.sbr
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\Misc.sbr
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\ServerListProc.sbr
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\ThreadFuncForMsg.sbr
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\database.sbr
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\syncobj.sbr
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\EnDecode.sbr
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\RegstryHandler.sbr
+\LegendOfMir3_Server\_Obj_Debug\LoginSvr\ServerSockHandler.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\yjjie\LOCALS~1\Temp\RSPC4.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+LoginSvr.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
